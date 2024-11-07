@@ -4,17 +4,17 @@ import java.util.List;
 
 
 /**
- * The FormLineValues class represents a container for storing the formLineValues of
+ * The FormLineValue class represents a container for storing the formLineValues of
  * a form line
  */
-public class FormLineValues {
-    private List<FormLinePropertiesValueElement> valueList;
+public class FormLineValue {
+    private List<FormLineValueElement> valueList;
 
-    public List<FormLinePropertiesValueElement> getValueList() {
+    public List<FormLineValueElement> getValueList() {
         return valueList;
     }
 
-    public void setValueList(List<FormLinePropertiesValueElement> valueList) {
+    public void setValueList(List<FormLineValueElement> valueList) {
         this.valueList = valueList;
     }
 }
