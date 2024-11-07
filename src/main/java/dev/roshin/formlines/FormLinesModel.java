@@ -11,7 +11,7 @@ import java.util.Objects;
  * @param <L> The type of form line that extends FormLine.
  */
 public class FormLinesModel<L extends FormLine> {
-    private List<L> lines = new ArrayList<>();
+    private List<L> lines;
     private boolean hideLineNumbers = false;
     private boolean hasButtonMenu = false;
 

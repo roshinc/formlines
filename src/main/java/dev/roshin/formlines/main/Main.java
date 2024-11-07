@@ -72,7 +72,7 @@ public class Main {
         // Set additional property
         formLine.setAdditionalProperty("Additional Info");
 
-        FormLinesModel formLinesModel = new FormLinesModel(Arrays.asList(formLine));
+        FormLinesModel<CustomFormLine> formLinesModel = new FormLinesModel<>(Collections.singletonList(formLine));
 
         System.out.println(formLinesModel);
         System.out.println(new Gson().toJson(formLinesModel));

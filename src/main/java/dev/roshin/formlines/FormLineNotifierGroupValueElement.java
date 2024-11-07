@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * The FormLineNotifierGroupValueElement class represents a group of notifiers
  * in a form line.
- *
+ * <p>
  * This class is used to encapsulate a list of notifiers along with a template
  * that dictates the structure or style of the notifier group.
  *
